@@ -4,7 +4,7 @@ An investor-relations-style interactive visualization of Snowball Developments' 
 
 The component overlays five clickable hotspots on an aerial of the property, each mapping a value-creation lever — acquisition basis, suite reconfiguration, site capex, industrial outdoor storage conversion, and rooftop solar — to its physical location on the site. Clicking a hotspot reveals a side panel with the strategy, illustrative financials, and source attribution.
 
-**Live demo:** [coming soon — Vercel link will go here]
+**Live demo:** https://1640-john-fitch.vercel.app
 
 ## About the project
 
