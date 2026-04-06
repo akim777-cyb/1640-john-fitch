@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create:*)",
+      "Bash(npm_config_cache=/tmp/npm-cache npm create:*)",
+      "Bash(cp:*)",
+      "Bash(npm_config_cache=/tmp/npm-cache npm install:*)",
+      "Bash(npm_config_cache=/tmp/npm-cache npm run:*)"
+    ]
+  }
+}
