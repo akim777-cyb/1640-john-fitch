@@ -1,16 +1,28 @@
-# React + Vite
+# 1640 John Fitch Boulevard — Interactive Case Study
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An investor-relations-style interactive visualization of Snowball Developments' value-add asset management plan at 1640 John Fitch Boulevard, a 257,000 SF Class B warehouse on 12 acres in South Windsor, Connecticut, acquired in January 2025 for $17.3M.
 
-Currently, two official plugins are available:
+The component overlays five clickable hotspots on an aerial of the property, each mapping a value-creation lever — acquisition basis, suite reconfiguration, site capex, industrial outdoor storage conversion, and rooftop solar — to its physical location on the site. Clicking a hotspot reveals a side panel with the strategy, illustrative financials, and source attribution.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**Live demo:** [coming soon — Vercel link will go here]
 
-## React Compiler
+## About the project
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Built as a final mini-assignment for *Leveraging Data and AI for Real Estate Development* (PLAN 6118-1), Columbia GSAPP, Spring 2026, taught by Roman Pedan (CEO, Kasa) and L.D. Salmanson (CEO, Cherre).
 
-## Expanding the ESLint configuration
+The exercise applies the deterministic-vs-probabilistic and atomization frameworks from the course to a real value-add deal: acquisition figures are sourced directly from Snowball Developments' public website, while value-add projections are illustrative estimates grounded in publicly available market data from Solar Landscape, Matthews, Hamilton Lane, CRE Daily, the Connecticut Green Bank, and Commercial Property Executive.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech stack
+
+- Vite + React
+- Tailwind CSS
+- Framer Motion (transitions)
+- Built with Claude Code
+
+## Disclaimer
+
+This case study was prepared as an academic exercise. Acquisition details (purchase price, basis, building size, land area, acquisition date, occupancy at close) are sourced from Snowball Developments' public website. All financial projections for value-add programs are illustrative estimates based on publicly available market data and are not Snowball-confirmed figures.
+
+---
+
+Andrew Kim · Columbia GSAPP MSRED 2026
