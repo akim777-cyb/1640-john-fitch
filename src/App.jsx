@@ -115,17 +115,17 @@ function App() {
   return (
     <div className="min-h-screen bg-stone-50 text-black font-sans flex flex-col">
       {/* Header */}
-      <header className="bg-black text-white px-6 sm:px-10 py-7 border-b border-stone-800">
+      <header className="bg-stone-50 px-6 sm:px-10 py-7 border-b border-stone-200">
         <p className="text-[10px] font-semibold tracking-[0.2em] uppercase mb-2" style={{ color: '#2596be' }}>
           Value-Add Industrial Case Study
         </p>
-        <h1 className="text-2xl md:text-[28px] font-semibold tracking-tight leading-tight">
+        <h1 className="text-2xl md:text-[28px] font-semibold tracking-tight leading-tight text-stone-900">
           1640 John Fitch Boulevard
         </h1>
-        <p className="text-stone-400 text-sm mt-1 font-light">
+        <p className="text-stone-500 text-sm mt-1 font-light">
           South Windsor, Connecticut
         </p>
-        <p className="text-stone-500 text-[11px] mt-3 tracking-wide">
+        <p className="text-stone-400 text-[11px] mt-3 tracking-wide">
           Snowball Developments&nbsp;&middot;&nbsp;Acquired January 2025
         </p>
       </header>
@@ -527,7 +527,7 @@ function App() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-black text-stone-500 text-[11px] px-6 sm:px-10 py-5 leading-relaxed border-t border-stone-800">
+      <footer className="bg-stone-50 text-stone-400 text-[11px] px-6 sm:px-10 py-5 leading-relaxed border-t border-stone-200">
         Acquisition details are sourced from Snowball Developments' public website.
         All financial projections for value-add programs are illustrative estimates
         based on publicly available market data and not Snowball-confirmed figures.
